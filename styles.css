@@ -1,0 +1,147 @@
+*
+{
+    margin: 0px; /* property-name: property-value; */
+    padding: 0px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkolivegreen;
+    padding: 10px 30px;
+
+    position: sticky;
+    top:0;
+}
+
+.logo img{
+    width: 40px;
+}
+
+header h1{
+    text-align: center;
+    color: #ffffe4;
+    flex: 1;
+    font: 50px "Times New Roman";
+    font-weight:800;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.socials{
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.socials img{
+    width:30px;
+    height: 30px;
+}
+
+.nav-bar a{
+    color:bisque;
+}
+
+.nav-bar .current{
+    color:#000000;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.content{
+    width: 100%;
+    padding-bottom: 57px;
+    /*background-image: url(images/icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
+
+
+.content p{
+    color:#000000;
+    font-size: larger;
+}
+
+.content .abtMeText{
+    color:black;
+    text-decoration: underline;
+}
+
+.list-aboutme{
+    list-style-type: lower-roman;
+    padding-left: 30px;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #ffffe4;
+    background-color:  darkolivegreen;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.project-table{
+    
+    border-collapse: collapse;
+    margin: auto;
+
+    margin-top: 10px;
+}
+
+.project-table td, .project-table th{
+    border: 1px dashed black;
+    padding: 3px;
+    text-align: center;
+}
+
+.content form{
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+    padding: 5px;
+}
+
+.content legend{
+    text-align: center;
+}
+.content fieldset{
+    padding: 3px;
+}
+
+.content label{
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+}
+
+.content input, .content textarea{
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
